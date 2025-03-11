@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Tracking Dashboard</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vehicle Tracking Dashboard</h1>
+        <div class="dashboard">
+            <div id="map" class="map-container"></div>
+            <div class="sidebar">
+                <div id="vehicle-list"></div>
+                <div id="alerts">
+                    <h2>Recent Alerts</h2>
+                    <ul id="alert-list"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
